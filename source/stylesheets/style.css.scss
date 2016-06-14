@@ -1,0 +1,44 @@
+@import 'foundation';
+@import 'settings';
+@include foundation-everything;
+
+body{
+	background-color: #111;
+}
+/*===========================================================
+#flip-panel
+===========================================================*/
+
+.card {
+    width: 100px;
+    height: 100px;
+    // border-radius: 4px;
+}
+ 
+.front{
+	height: 100px;
+    width: 100px;
+    margin: 0.5rem;
+    background-color: #010101;
+    padding: 0rem;
+    backface-visibility: hidden;
+    // border-radius: 4px;
+    transform-style: preserve-3d;
+    // position: absolute;
+    // z-index: 1;
+    transition: all 0.4s ease-out;
+}
+.back{
+	transform: rotateX(-180deg);
+    backface-visibility: hidden;
+    margin: 0.5rem;
+    // border-radius: 4px;
+    padding: 0rem;
+    background-color: #fff;
+    color: #fff;
+    transform-style: preserve-3d;
+    // position: absolute;
+    // z-index: 0;
+    transition: all 0.1s ease-out;
+}
+
