@@ -5,6 +5,32 @@ var oscillator;
 var amp;
 
 // Create an oscillator and an amplifier.
+
+// Create a button to switch the oscillator type
+
+// buttonClickResult = function (){ 
+// var button = document.getElementById('btn1');  
+// button.onclick = function buttonClicked()  
+// {  
+// if(button.className=="off") //if class name is "off" 
+// { button.className="on"; // assign it to "on" and.... 
+// button.src='on.png';  oscOn (); // assign it's scr img  
+// playClickSound('click.wav');  
+// } 
+// else if(button.className=="on") //if class name IS "on" 
+// {  button.className="off"; //Change it to "off" 
+// button.src='off.png'; // and assign it a different src image 
+// playClickSound('click.wav');  
+// oscillator.disconnect();  
+// }
+
+// }  
+// };  
+// buttonClickResult();
+
+
+
+
 function initAudio()
 {
     // Use audioContext from webaudio_tools.js
@@ -12,6 +38,8 @@ function initAudio()
     {
         oscillator = audioContext.createOscillator();
         fixOscillator(oscillator);
+
+        oscillator.type = 'square';
         oscillator.frequency.value = 440;
         amp = audioContext.createGain();
         amp.gain.value = 0;
@@ -38,7 +66,7 @@ function startTone( frequency )
     amp.gain.cancelScheduledValues(now);
     // Anchor beginning of ramp at current value.
     amp.gain.setValueAtTime(amp.gain.value, now);
-    amp.gain.linearRampToValueAtTime(0.5, audioContext.currentTime + 0.4);
+    amp.gain.linearRampToValueAtTime(0.5, audioContext.currentTime + 0.1);
     
     writeMessageToID( "soundStatus", "<p>Play tone at frequency = " + frequency  + "</p>");
 }
@@ -51,6 +79,8 @@ function stopTone()
     amp.gain.linearRampToValueAtTime(0.0, audioContext.currentTime + 1.0);
     writeMessageToID( "soundStatus", "<p>Stop tone.</p>");
 }
+
+
 
 // init once the page has finished loading.
 window.onload = initAudio;

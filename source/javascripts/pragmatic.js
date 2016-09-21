@@ -257,6 +257,258 @@ $(document).ready(function() {
         trigger: 'hover', // click or hover
         speed: 500
       });
+      $("#card37").flip({
+        axis: "y", // y or x
+        autosize: true,
+        reverse: false, // true and false
+        trigger: 'hover', // click or hover
+        speed: 500
+      });
+      $("#card38").flip({
+        axis: "y", // y or x
+        autosize: true,
+        reverse: false, // true and false
+        trigger: 'hover', // click or hover
+        speed: 500
+      });
+      $("#card39").flip({
+        axis: "y", // y or x
+        autosize: true,
+        reverse: false, // true and false
+        trigger: 'hover', // click or hover
+        speed: 500
+      });
+      $("#card40").flip({
+        axis: "y", // y or x
+        autosize: true,
+        reverse: false, // true and false
+        trigger: 'hover', // click or hover
+        speed: 500
+      });
+      $("#card41").flip({
+        axis: "y", // y or x
+        autosize: true,
+        reverse: false, // true and false
+        trigger: 'hover', // click or hover
+        speed: 500
+      });
+      $("#card42").flip({
+        axis: "y", // y or x
+        autosize: true,
+        reverse: false, // true and false
+        trigger: 'hover', // click or hover
+        speed: 500
+      });
+      $("#card43").flip({
+        axis: "y", // y or x
+        autosize: true,
+        reverse: false, // true and false
+        trigger: 'hover', // click or hover
+        speed: 500
+      });
+      $("#card44").flip({
+        axis: "y", // y or x
+        autosize: true,
+        reverse: false, // true and false
+        trigger: 'hover', // click or hover
+        speed: 500
+      });
+      $("#card45").flip({
+        axis: "y", // y or x
+        autosize: true,
+        reverse: false, // true and false
+        trigger: 'hover', // click or hover
+        speed: 500
+      });
+      $("#card46").flip({
+        axis: "y", // y or x
+        autosize: true,
+        reverse: false, // true and false
+        trigger: 'hover', // click or hover
+        speed: 500
+      });
+      $("#card47").flip({
+        axis: "y", // y or x
+        autosize: true,
+        reverse: false, // true and false
+        trigger: 'hover', // click or hover
+        speed: 500
+      });
+      $("#card48").flip({
+        axis: "y", // y or x
+        autosize: true,
+        reverse: false, // true and false
+        trigger: 'hover', // click or hover
+        speed: 500
+      });
+      $("#card49").flip({
+        axis: "y", // y or x
+        autosize: true,
+        reverse: false, // true and false
+        trigger: 'hover', // click or hover
+        speed: 500
+      });
+      $("#card50").flip({
+        axis: "y", // y or x
+        autosize: true,
+        reverse: false, // true and false
+        trigger: 'hover', // click or hover
+        speed: 500
+      });
+      $("#card51").flip({
+        axis: "y", // y or x
+        autosize: true,
+        reverse: false, // true and false
+        trigger: 'hover', // click or hover
+        speed: 500
+      });
+      $("#card52").flip({
+        axis: "y", // y or x
+        autosize: true,
+        reverse: false, // true and false
+        trigger: 'hover', // click or hover
+        speed: 500
+      });
+      $("#card53").flip({
+        axis: "y", // y or x
+        autosize: true,
+        reverse: false, // true and false
+        trigger: 'hover', // click or hover
+        speed: 500
+      });
+      $("#card54").flip({
+        axis: "y", // y or x
+        autosize: true,
+        reverse: false, // true and false
+        trigger: 'hover', // click or hover
+        speed: 500
+      });
+      $("#card55").flip({
+        axis: "y", // y or x
+        autosize: true,
+        reverse: false, // true and false
+        trigger: 'hover', // click or hover
+        speed: 500
+      });
+      $("#card56").flip({
+        axis: "y", // y or x
+        autosize: true,
+        reverse: false, // true and false
+        trigger: 'hover', // click or hover
+        speed: 500
+      });
+      $("#card57").flip({
+        axis: "y", // y or x
+        autosize: true,
+        reverse: false, // true and false
+        trigger: 'hover', // click or hover
+        speed: 500
+      });
+      $("#card58").flip({
+        axis: "y", // y or x
+        autosize: true,
+        reverse: false, // true and false
+        trigger: 'hover', // click or hover
+        speed: 500
+      });
+      $("#card59").flip({
+        axis: "y", // y or x
+        autosize: true,
+        reverse: false, // true and false
+        trigger: 'hover', // click or hover
+        speed: 500
+      });
+      $("#card60").flip({
+        axis: "y", // y or x
+        autosize: true,
+        reverse: false, // true and false
+        trigger: 'hover', // click or hover
+        speed: 500
+      });
+      $("#card61").flip({
+        axis: "y", // y or x
+        autosize: true,
+        reverse: false, // true and false
+        trigger: 'hover', // click or hover
+        speed: 500
+      });
+      $("#card62").flip({
+        axis: "y", // y or x
+        autosize: true,
+        reverse: false, // true and false
+        trigger: 'hover', // click or hover
+        speed: 500
+      });
+      $("#card63").flip({
+        axis: "y", // y or x
+        autosize: true,
+        reverse: false, // true and false
+        trigger: 'hover', // click or hover
+        speed: 500
+      });
+      $("#card64").flip({
+        axis: "y", // y or x
+        autosize: true,
+        reverse: false, // true and false
+        trigger: 'hover', // click or hover
+        speed: 500
+      });
+      $("#card65").flip({
+        axis: "y", // y or x
+        autosize: true,
+        reverse: false, // true and false
+        trigger: 'hover', // click or hover
+        speed: 500
+      });
+      $("#card66").flip({
+        axis: "y", // y or x
+        autosize: true,
+        reverse: false, // true and false
+        trigger: 'hover', // click or hover
+        speed: 500
+      });
+      $("#card67").flip({
+        axis: "y", // y or x
+        autosize: true,
+        reverse: false, // true and false
+        trigger: 'hover', // click or hover
+        speed: 500
+      });
+      $("#card68").flip({
+        axis: "y", // y or x
+        autosize: true,
+        reverse: false, // true and false
+        trigger: 'hover', // click or hover
+        speed: 500
+      });
+      $("#card69").flip({
+        axis: "y", // y or x
+        autosize: true,
+        reverse: false, // true and false
+        trigger: 'hover', // click or hover
+        speed: 500
+      });
+      $("#card70").flip({
+        axis: "y", // y or x
+        autosize: true,
+        reverse: false, // true and false
+        trigger: 'hover', // click or hover
+        speed: 500
+      });
+      $("#card71").flip({
+        axis: "y", // y or x
+        autosize: true,
+        reverse: false, // true and false
+        trigger: 'hover', // click or hover
+        speed: 500
+      });
+      $("#card72").flip({
+        axis: "y", // y or x
+        autosize: true,
+        reverse: false, // true and false
+        trigger: 'hover', // click or hover
+        speed: 500
+      });
       console.log('hello')
       // $("#card").flip({
       //   axis: "x",

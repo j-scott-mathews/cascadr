@@ -11,6 +11,7 @@
   %body{:class => page_classes}
     = yield
     = javascript_include_tag  "all", "pragmatic", "flip", "tone", "webaudio_tools"
+    %script{:src => "//cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.3/p5.js"}
     / %script{:src => "https://code.jquery.com/jquery-2.1.4.min.js"}
     / %script{:src => "https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"}
 

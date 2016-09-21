@@ -5,9 +5,6 @@
  * This code was based on original code by Boris Smus
  * from: http://www.webaudioapi.com/
  *
- * with extensions and modifications by Phil Burk
- * from http://www.softsynth.com/webaudio/
- */
 /*
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -66,6 +63,12 @@ function fixOscillator(osc)
 		}
 	}
 }
+
+function setOscillatorType(oscType)
+{
+    oscillator.type = oscType;
+}
+
 
 // Change HTML in a DIV or other element for debugging
 function writeMessageToID(id,message)
